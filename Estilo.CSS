@@ -57,12 +57,12 @@ h2 {
 
 footer {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 2px;
-    margin-bottom: 15px;
+    margin-top: 0,1rem;
+    margin-bottom: 0,1rem;
+    padding: 0,2rem;
+    margin-bottom: 0,9rem;
     color: beige;
-    font-size: 13px;
+    font-size: 0,2rem;
 }
 
 .nome-nax{
@@ -75,6 +75,7 @@ footer {
 }
 
 .sobrem{
+    margin-top: 1%;
     color: aquamarine;
     font-size: 12px;
 }
