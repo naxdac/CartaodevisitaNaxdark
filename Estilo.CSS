@@ -1,45 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
+
 body {
-    text-align: center;
-    color: rgb(255, 255, 255);
+    text-align: center; color: rgb(255, 255, 255);
     position: relative;
     background: rgb(14, 13, 13);
     opacity: 0.9;
-    font-size: 16px; /* Tamanho base */
 }
 
 body::before {
     content: ""; 
     position: absolute;
-    top: 0px; 
-    left: 0px; 
+    top: 0; 
+    left: 0; 
     width: 100%; 
     height: 100%;
     background: url("img/NAX.jpg") no-repeat center center;
-    background-size: 100%;
+    background-size: contain;
     background-attachment: fixed; 
     opacity: 0.1; 
     z-index: -1; 
     mix-blend-mode: multiply;
 }
-
-a {
+a{
     text-decoration: none;
     color: rgb(228, 176, 5);
 }
 
-h1 {
+h1{
     background-color: rgba(105, 105, 105, 0.164);
+    border: 0.5rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    margin: 15px px;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 2.5rem;
-    text-align: center;
 }
 
 h2 {
@@ -51,72 +55,25 @@ h2 {
 
 footer {
     text-align: center;
-    margin-top: 0.1rem;
-    margin-bottom: 0.9rem;
-    padding: 0.2rem;
+    margin-top: 0,1rem;
+    margin-bottom: 0,1rem;
+    padding: 0,2rem;
+    margin-bottom: 0,9rem;
     color: beige;
-    font-size: 0.8rem;
+    font-size: 0,2rem;
 }
 
-.nome-nax {
+.nome-nax{
     color: rgb(180, 240, 220);
 }
 
-.slogam {
+.slogam{
     font-size: 30px;
     color: brown;
 }
 
-.sobrem {
+.sobrem{
     margin-top: 1%;
     color: aquamarine;
     font-size: 12px;
-}
-
-/* Responsividade */
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-        margin: 10px;
-        padding: 0.3rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    .slogam {
-        font-size: 24px;
-    }
-
-    .sobrem {
-        font-size: 10px;
-    }
-
-    footer {
-        font-size: 0.6rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 1.8rem;
-        margin: 5px;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    .slogam {
-        font-size: 20px;
-    }
-
-    .sobrem {
-        font-size: 9px;
-    }
-
-    footer {
-        font-size: 0.5rem;
-    }
 }
