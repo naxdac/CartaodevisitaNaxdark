@@ -55,12 +55,9 @@ h2 {
 
 footer {
     text-align: center;
-    margin-top: 0,1rem;
-    margin-bottom: 0,1rem;
-    padding: 0,2rem;
-    margin-bottom: 0,9rem;
+    margin-top: 40px;
     color: beige;
-    font-size: 0,2rem;
+    font-size: 10px;
 }
 
 .nome-nax{
